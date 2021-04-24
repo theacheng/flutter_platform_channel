@@ -10,13 +10,13 @@ class _BetteryScreenState extends State<BetteryScreen> {
   int? betteryLevel;
   @override
   Widget build(BuildContext context) {
-    BetterLevel betterLevel = BetterLevel();
+    BetterLevel bettery = BetterLevel();
     return Scaffold(
       body: Center(
         child: TextButton(
-          child: Text("Get bettery $betteryLevel"),
+          child: Text("Get bettery ${betteryLevel ?? bettery.errorMessage}"),
           onPressed: () async {
-            int? value = await betterLevel.getBatteryLevel();
+            int? value = await bettery.getBatteryLevel();
             if (value != null) {
               setState(() {
                 betteryLevel = value;

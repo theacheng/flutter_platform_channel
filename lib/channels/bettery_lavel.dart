@@ -2,7 +2,7 @@ import 'package:flutter/services.dart';
 
 class BetterLevel {
   static const platform = const MethodChannel('battery');
-  static String? errorMessage = 'Unknown battery level.';
+  String? errorMessage = 'Unknown battery level.';
 
   Future<int?> getBatteryLevel() async {
     try {
