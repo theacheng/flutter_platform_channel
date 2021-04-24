@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.flutter_platform_channel">
+    package="com.tc.flutter_platform_channel">
    <application
         android:label="flutter_platform_channel"
         android:icon="@mipmap/ic_launcher">

@@ -1,4 +1,4 @@
-package com.example.flutter_platform_channel
+package com.tc.flutter_platform_channel
 
 import androidx.annotation.NonNull
 import io.flutter.embedding.android.FlutterActivity
