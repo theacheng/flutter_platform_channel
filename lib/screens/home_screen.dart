@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_platform_channel/screens/bettery_screen.dart';
+import 'package:flutter_platform_channel/screens/volume_screen.dart';
 
 class HomeScreen extends StatelessWidget {
   @override
@@ -10,7 +10,7 @@ class HomeScreen extends StatelessWidget {
           child: Text("Bettery"),
           onPressed: () {
             Navigator.of(context).push(MaterialPageRoute(builder: (context) {
-              return BetteryScreen();
+              return VolumeScreen();
             }));
           },
         ),

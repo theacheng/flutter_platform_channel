@@ -1,6 +1,6 @@
 import 'package:flutter/services.dart';
 
-class BetterLevel {
+class BetteryChannel {
   static const platform = const MethodChannel('battery');
   String? errorMessage = 'Unknown battery level.';
 

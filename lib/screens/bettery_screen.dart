@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_platform_channel/channels/bettery_lavel.dart';
+import 'package:flutter_platform_channel/channels/bettery_channel.dart';
 
 class BetteryScreen extends StatefulWidget {
   @override
@@ -7,10 +7,11 @@ class BetteryScreen extends StatefulWidget {
 }
 
 class _BetteryScreenState extends State<BetteryScreen> {
+  final BetteryChannel bettery = BetteryChannel();
   int? betteryLevel;
+
   @override
   Widget build(BuildContext context) {
-    BetterLevel bettery = BetterLevel();
     return Scaffold(
       body: Center(
         child: TextButton(
